@@ -1,0 +1,41 @@
+#Loginpg {
+  height: auto;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Loginpg form {
+  height: auto;
+  width: 100%;
+}
+#Loginpg form span {
+  color: red;
+}
+#Loginpg form input {
+  color: black;
+
+  padding: 10px;
+  width: 100%;
+}
+#Loginpg #Loginform label {
+  padding: 10px;
+  margin: 10px;
+}
+#Loginpg .card {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 100%;
+  height: auto;
+}
+
+#Loginpg h1 {
+  text-align: center;
+  padding: 10px;
+}
+#Loginpg button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 10px;
+}

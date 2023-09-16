@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  #Slidebar .list-group a span {
+    display: none;
+  }
+  #Slidebar .list-group a i {
+  }
+}
+
+#Slidebar .list-group a i {
+  font-size: 30px;
+}
+
+#Slidebar {
+  color: white;
+}

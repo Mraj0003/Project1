@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Metal+Mania&family=Odor+Mean+Chey&family=Shadows+Into+Light+Two&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+
+#FeedbackContact {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #132d46, #25282c);
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#FeedbackContact span {
+  color: orange;
+}
+#FeedbackContact #Feedback a {
+  font-weight: 400;
+  text-decoration: none;
+}
+#FeedbackContact #Feedback button {
+  background: orange;
+  border: none;
+  width: 100px;
+}
+
+#FeedbackContact label {
+  margin: 10px;
+  font-weight: 500;
+  padding: 10px;
+}
+#FeedbackContact button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+#FeedbackContact form {
+  border: 2px solid white;
+  border-radius: 5%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+
+#FeedbackContact #Feedbackimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+}
+
+#FeedbackContact .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+#FeedbackContact .carousel-indicators {
+  bottom: 0;
+}
+
+#FeedbackContact .carousel-indicators .active {
+  background-color: #007bff;
+}
+
+#FeedbackContact .carousel {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#FeedbackContact .carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  font-size: 24px;
+}
+
+#FeedbackContact .carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#FeedbackContact #Feedback .text {
+  background: linear-gradient(10deg, #7efbfd, #fed7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Koulen", cursive;
+  font-size: 4rem;
+}
+
+#FeedbackContact #Feedback .textpara p {
+  margin-bottom: 3%;
+  font-weight: 500;
+  max-width: 40rem;
+  font-family: "Shadows Into Light Two", cursive;
+  letter-spacing: 3px;
+}

@@ -1,0 +1,19 @@
+#Nave {
+}
+#Nave a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+#Nave a button {
+}
+
+#Nave .logo h2 {
+  text-transform: capitalize;
+}
+
+@media (max-width: 900px) {
+  #Nave .logo h2 {
+    display: none;
+  }
+}

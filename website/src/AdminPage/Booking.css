@@ -1,0 +1,28 @@
+#Booking {
+  margin-top: 50px;
+  height: auto;
+  color: black;
+}
+
+#Booking form div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+#Booking form {
+  width: 100%;
+  padding: 30px;
+}
+#Booking {
+}
+#Booking label {
+  width: 100%;
+}
+#Booking input {
+  width: 100%;
+}
+#Booking button a {
+  text-decoration: none;
+}

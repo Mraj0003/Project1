@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+
+#Home {
+  background: black;
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+#Home .text {
+  text-align: justify;
+  background: linear-gradient(10deg, #7efbfd, #fed7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Koulen", cursive;
+  font-size: 4rem;
+}
+
+#Home .text span :nth-child(1) {
+  text-align: end;
+}
+
+#Home .textpara h5 {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+#Home .textpara {
+  max-width: 40rem;
+  margin: 0 auto;
+  font-family: "Shadows Into Light Two", cursive;
+  letter-spacing: 1.5px;
+}
+
+#Home button a {
+  text-decoration: none;
+}
+#Home button {
+  margin: 15px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* Style the anime container */
+#Home .slide {
+  padding: 20px;
+}
+
+/* Style the images within the Carousel */
+#Home .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Customize the Carousel indicators */
+#Home .carousel-indicators {
+  bottom: 0;
+}
+
+/* Style the active Carousel indicator */
+#Home .carousel-indicators .active {
+  background-color: #007bff; /* Change this to your desired active indicator color */
+}
+
+/* Optional: Add some styles to control the size and alignment of the Carousel */
+#Home .carousel {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Optional: Style the Carousel controls (next and previous buttons) */
+#Home .carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /* Change this to your desired control button background color */
+  border: none;
+  color: white; /* Change this to your desired control button color */
+  font-size: 24px; /* Change this to your desired control button font size */
+}
+
+/* Optional: Style the active state of the Carousel controls */
+#Home .carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Change this to your desired hover background color */
+}

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+
+#About {
+  background: linear-gradient(to right, #0f152d, #35384d);
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#About #introduction {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#About .text {
+  text-align: center;
+  background: linear-gradient(10deg, #7efbfd, #fed7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Koulen", cursive;
+  font-size: 4rem;
+}
+
+#About .textpara p {
+  margin-bottom: 10%;
+  font-weight: bold;
+  text-align: center;
+  max-width: 40rem;
+  font-family: "Shadows Into Light Two", cursive;
+  letter-spacing: 3px;
+}
+
+/*Round animation */
+
+#About .anime {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#About .circle {
+  position: absolute;
+  width: 30%;
+  height: 20vh;
+  background-image: url(./Image/imageHome/Logo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+}
+#About .circletext {
+  position: absolute;
+  color: lawngreen;
+  font-size: 2em;
+  user-select: none;
+  pointer-events: none;
+  animation: circleanime 5s linear infinite;
+}
+@keyframes circleanime {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#About .circletext span {
+  top: -200px;
+  position: absolute;
+  text-transform: uppercase;
+  display: inline-block;
+  transform-origin: 0 200px;
+}
+
+@media (max-width: 768px) {
+  #About .anime {
+    display: none;
+  }
+  #About .anime {
+    display: none;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #About .text {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #About .text {
+    font-size: 2.5rem;
+  }
+}

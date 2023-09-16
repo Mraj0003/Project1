@@ -1,0 +1,120 @@
+#Footer {
+  background: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#Footer #Footercontant {
+  position: relative;
+  left: 2%;
+  transform: translate(-2%);
+}
+
+#Footer #Footercontant .address a {
+  text-decoration: none;
+  color: white;
+}
+#Footer #Footercontant .service ul {
+  display: inline;
+}
+#Footer #Footercontant .service li {
+  padding-left: 10%;
+  padding-bottom: 3px;
+  list-style: none;
+  text-align: justify;
+}
+
+#Footer hr {
+  border: 1px solid white;
+}
+#Footer #Footercontant p {
+  position: relative;
+  left: 5%;
+}
+#Footer #Footercontant img {
+  width: 30%;
+}
+#Footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Footer .Footicon li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+#Footer .menu li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+#Footer .Footicon li a {
+  display: inline-block;
+  color: white;
+}
+#Footer .Footicon li a:hover {
+  transform: translateY(-10px);
+  color: yellow;
+}
+#Footer .menu li a:hover {
+  color: yellow;
+}
+#Footer #Footercontant ul :hover {
+  transform: translateY(-10px);
+  font-size: larger;
+  color: yellow;
+}
+#Footer #Footercontant .address a:hover {
+  transform: translateY(-10px);
+  font-size: larger;
+  color: yellow;
+}
+#Footer #Contactcard input {
+}
+
+#Footernave .menu li a {
+  font-size: larger;
+  color: white;
+}
+
+#Footer #Footernave p {
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+#Footer #Footernave p:hover {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: yellow;
+}
+#Footer form button {
+  border: none;
+  color: black;
+  background: white;
+}
+#Footer form button:hover {
+  color: black;
+  background: yellow;
+}
+
+#Footer #Contactcard form {
+  margin: 20px;
+}
+
+#Footer #Contactcard input {
+  color: yellow;
+  background: transparent;
+  border: 1px solid white;
+}
+#Footer #Contactcard input:hover {
+  border: 1px solid yellow;
+}

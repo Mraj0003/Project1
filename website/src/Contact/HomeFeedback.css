@@ -1,0 +1,295 @@
+#HomeFeedback .card-body {
+  color: white;
+  background: black;
+  border: 1px solid white;
+}
+#HomeFeedback img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#HomeFeedback {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background: linear-gradient(to right, #2f40c1, #a955eb);
+}
+#HomeFeedback .Backbtn {
+  padding: 15px;
+  color: white;
+}
+
+#HomeFeedback #Contacttext {
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+  transform: translate(-5rem -5rem);
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#HomeFeedback #Contacttext .blob h5 {
+  position: absolute;
+  left: 65%;
+  transform: translate(-10%);
+}
+#HomeFeedback #Contacttext .blob span:nth-child(1) {
+  position: absolute;
+  inset: 0;
+}
+#HomeFeedback #Contacttext .blob span:nth-child(1) svg {
+  width: 10%;
+  height: 10%;
+  color: red;
+}
+#Contacttext .blob span:nth-child(2) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(2) svg {
+  width: 10%;
+  height: 10%;
+  color: lightskyblue;
+}
+#Contacttext .blob span:nth-child(3) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(3) svg {
+  width: 10%;
+  height: 10%;
+  color: yellow;
+}
+#Contacttext .blob span:nth-child(4) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(4) svg {
+  width: 10%;
+  height: 10%;
+  color: yellow;
+}
+#Contacttext .blob span:nth-child(5) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(5) svg {
+  width: 10%;
+  height: 10%;
+  color: rgb(250, 81, 213);
+}
+#Contacttext .blob span:nth-child(6) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(6) svg {
+  width: 10%;
+  height: 10%;
+  color: #132d46;
+}
+#Contacttext .blob span:nth-child(7) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(7) svg {
+  width: 10%;
+  height: 10%;
+  color: greenyellow;
+}
+#Contacttext .blob span:nth-child(8) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(8) svg {
+  width: 10%;
+  height: 10%;
+  color: orange;
+}
+#Contacttext .blob span:nth-child(9) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(9) svg {
+  width: 10%;
+  height: 10%;
+  color: whitesmoke;
+}
+#Contacttext .blob span:nth-child(10) {
+  position: absolute;
+  inset: 0;
+}
+#Contacttext .blob span:nth-child(10) svg {
+  width: 10%;
+  height: 10%;
+  color: lightskyblue;
+}
+#Contacttext span:nth-child(1) {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  animation: animationblob1 13s linear infinite;
+}
+#Contacttext span:nth-child(2) {
+  border-radius: 30% 70% 27% 73% / 56% 28% 72% 44%;
+  animation: animationblob2 14s linear infinite;
+}
+#Contacttext span:nth-child(3) {
+  border-radius: 54% 46% 63% 37% / 37% 57% 43% 63%;
+  animation: animationblob3 10s linear infinite;
+}
+#Contacttext span:nth-child(4) {
+  border-radius: 74% 26% 68% 32% / 46% 47% 53% 54%;
+  animation: animationblob4 7s linear infinite;
+}
+#Contacttext span:nth-child(5) {
+  border-radius: 30% 70% 49% 51% / 56% 36% 64% 44%;
+  animation: animationblob4 11s linear infinite;
+}
+#Contacttext span:nth-child(6) {
+  border-radius: 30% 70% 33% 67% / 84% 20% 80% 16%;
+  animation: animationblob4 9s linear infinite;
+}
+#Contacttext span:nth-child(7) {
+  border-radius: 30% 70% 71% 29% / 31% 66% 34% 69%;
+  animation: animationblob4 8s linear infinite;
+}
+#Contacttext span:nth-child(8) {
+  border-radius: 30% 70% 32% 68% / 67% 44% 56% 33%;
+  animation: animationblob4 15s linear infinite;
+}
+#Contacttext span:nth-child(9) {
+  border-radius: 30% 70% 32% 68% / 67% 44% 56% 33%;
+  animation: animationblob4 12s linear infinite;
+}
+#Contacttext span:nth-child(10) {
+  border-radius: 30% 70% 32% 68% / 67% 44% 56% 33%;
+  animation: animationblob4 9s linear infinite;
+}
+
+@keyframes animationblob1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animationblob2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animationblob3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animationblob4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animationblob5 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes animationblob6 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes animationblob7 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes animationblob8 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes animationblob9 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes animationblob10 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media (max-width: 768px) {
+  #Contact {
+    height: 100vh;
+  }
+  #Contacttext {
+    display: none;
+  }
+  #FeedbackContact form {
+    width: 100%;
+  }
+}
+
+#Contactanimation .Colorchange p {
+  font-size: 25px;
+  width: 100%;
+  font-family: montserrat;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  animation: pulse 10s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: red;
+  }
+  20% {
+    color: lightblue;
+  }
+  40% {
+    color: orange;
+  }
+  60% {
+    color: yellow;
+  }
+  80% {
+    color: lightgreen;
+  }
+  100% {
+    color: white;
+  }
+}
